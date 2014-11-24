@@ -1,3 +1,5 @@
+var cssLintTree = require('broccoli-csslint');
+
 'use strict';
 
 module.exports = {
