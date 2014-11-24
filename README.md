@@ -1,25 +1,60 @@
-# Ember-cli-csslint
+# Ember CLI CSSLint
 
-This README outlines the details of collaborating on this Ember addon.
+[Lint](https://github.com/CSSLint/csslint) your Ember app's CSS as part of the build process.
 
 ## Installation
+
+```
+npm i ember-cli-csslint
+```
+
+## Usage
+
+To customize your linting, create a `.csslintrc` in your project root. Here's an example
+`.csslintrc` that doesn't complain about the use of `!important`:
+
+```json
+{
+  "important": false
+}
+```
+
+For more information on the available rules see the [csslint wiki](https://github.com/CSSLint/csslint/wiki/Rules-by-ID).
+
+## Development
+
+### Installation
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
 
-## Running
+### Running
 
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-## Running Tests
+### Running Tests
 
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## License
+
+MIT
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+Crafted with <3 by [John Otander](http://johnotander.com) ([@4lpine](https://twitter.com/4lpine)).
