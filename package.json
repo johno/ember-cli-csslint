@@ -40,5 +40,8 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "broccoli-csslint": "0.0.1"
   }
 }
