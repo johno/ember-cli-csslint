@@ -10,6 +10,20 @@ npm i ember-cli-csslint
 
 ## Usage
 
+Now, when you run `ember build`, the CSS Linting will be automatically run:
+
+```
+ember build
+version: 0.1.2
+Building
+app.css: line 2, col 3, Use of !important,app.css: line 5, col 1, Don't use adjoining classes.,app.css: line 5, col 1, Rule is empty.
+3 errors
+
+===== 3 CSSLint Errors
+
+Built project successfully. Stored in "dist/".
+```
+
 To customize your linting, create a `.csslintrc` in your project root. Here's an example
 `.csslintrc` that doesn't complain about the use of `!important`:
 
@@ -44,6 +58,13 @@ For more information on the available rules see the [csslint wiki](https://githu
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## TODO:
+
+- [ ] Ensure the linting occurs on every build, including when the server is running.
+- [ ] Beautify the output.
+- [ ] Allow configuration for the styles directory (in case `app/styles` isn't used).
+- [ ] Allow configuration to specify the output CSS (in case a preprocessor is used).
 
 ## License
 
