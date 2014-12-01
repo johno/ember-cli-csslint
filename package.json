@@ -42,7 +42,7 @@
     "configPath": "tests/dummy/config"
   },
   "dependencies": {
-    "broccoli-csslint": "0.0.1",
-    "broccoli-funnel": "^0.1.6"
+    "broccoli": "^0.13.3",
+    "broccoli-csslint": "0.0.1"
   }
 }

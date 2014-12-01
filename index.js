@@ -1,5 +1,5 @@
 var cssLintTree = require('broccoli-csslint');
-var filterTree = require('broccoli-filter');
+var broccoli = require('broccoli');
 
 'use strict';
 
@@ -12,11 +12,12 @@ module.exports = {
     app.registry.add('css', {
       name: 'ember-cli-csslint',
       ext: 'css',
-      toTree: function(tree) {
-        var cssFiles = 'app/styles';
-        var stylesTree = null;
 
-        cssLintTree(stylesTree, {});
+      toTree: function(tree) {
+        var cssTree = cssLintTree('app/styles', {});
+        var builder = new broccoli.Builder(cssTree);
+        builder.build();
+
         return tree;
       }
     });
