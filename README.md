@@ -61,7 +61,7 @@ For more information on using ember-cli, visit [http://www.ember-cli.com/](http:
 
 ## TODO:
 
-- [ ] Ensure the linting occurs on every build, including when the server is running.
+- [X] Ensure the linting occurs on every build, including when the server is running.
 - [ ] Beautify the output.
 - [ ] Allow configuration for the styles directory (in case `app/styles` isn't used).
 - [ ] Allow configuration to specify the output CSS (in case a preprocessor is used).
