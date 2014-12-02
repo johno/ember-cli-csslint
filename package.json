@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-csslint",
   "description": "Lint your CSS as part of your build process.",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "directories": {
     "doc": "doc",
     "test": "tests"
