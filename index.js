@@ -1,4 +1,4 @@
-var cssLintTree = require('broccoli-csslint');
+var csslintTree = require('broccoli-csslint');
 var broccoli = require('broccoli');
 
 'use strict';
@@ -14,11 +14,7 @@ module.exports = {
       ext: 'css',
 
       toTree: function(tree) {
-        var cssTree = cssLintTree('app/styles', {});
-        var builder = new broccoli.Builder(cssTree);
-        builder.build();
-
-        return tree;
+        return csslintTree('app/styles', {});
       }
     });
   }
