@@ -43,6 +43,6 @@
   },
   "dependencies": {
     "broccoli": "^0.13.3",
-    "broccoli-csslint": "^0.1.0"
+    "broccoli-csslint": "^0.1.1"
   }
 }
