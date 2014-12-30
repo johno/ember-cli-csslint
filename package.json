@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "broccoli": "^0.13.3",
-    "broccoli-csslint": "^0.1.1",
+    "broccoli-csslint": "^0.1.2",
     "broccoli-file-remover": "^0.3.1"
   }
 }
