@@ -1,4 +1,5 @@
 var csslintTree = require('broccoli-csslint');
+var removeFiles = require('broccoli-file-remover');
 var broccoli = require('broccoli');
 
 'use strict';
@@ -6,16 +7,11 @@ var broccoli = require('broccoli');
 module.exports = {
   name: 'ember-cli-csslint',
 
-  included: function(app) {
-    this._super.included(app);
-
-    app.registry.add('css', {
-      name: 'ember-cli-csslint',
-      ext: 'css',
-
-      toTree: function(tree) {
-        return csslintTree('app/styles', {});
-      }
-    });
+  postprocessTree: function(type, tree) {
+    if (type === 'all') {
+      return csslintTree(tree, {});
+    } else {
+      return tree;
+    }
   }
 };
