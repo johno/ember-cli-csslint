@@ -2,6 +2,10 @@
 
 [Lint](https://github.com/CSSLint/csslint) your Ember app's CSS as part of the build process.
 
+### Known limitations
+
+Currently pulls in test and vendor CSS, which isn't desirable.
+
 ## Installation
 
 ```
