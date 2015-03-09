@@ -1,4 +1,4 @@
-# Ember CLI CSSLint
+# Ember CLI CSSLint [![Build Status](https://travis-ci.org/johnotander/ember-cli-csslint.svg?branch=ignore-test-css)](https://travis-ci.org/johnotander/ember-cli-csslint)
 
 [Lint](https://github.com/CSSLint/csslint) your Ember app's CSS as part of the build
 process. This addon lints the CSS _after_ the preprocessors (using the postprocess
