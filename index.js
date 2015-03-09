@@ -9,7 +9,7 @@ module.exports = {
 
   postprocessTree: function(type, tree) {
     if (type === 'all') {
-      return csslintTree(tree, {});
+      return csslintTree(tree);
     } else {
       return tree;
     }
