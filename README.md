@@ -12,6 +12,18 @@ ember install:addon ember-cli-csslint
 
 ## Usage
 
+It is recommended to create a `.csslintrc` in your project root with the following
+`exclude-list` in order to ignore vendor and test-support CSS:
+
+```json
+{
+  "exclude-list": [
+    "assets/vendor.css",
+    "assets/test-support.css"
+  ]
+}
+```
+
 Now, when you run `ember build`, the CSS Linting will be automatically run:
 
 ```
