@@ -30,7 +30,9 @@ Now, when you run `ember build`, the CSS Linting will be automatically run:
 ember build
 version: 0.1.2
 Building
-app.css: line 2, col 3, Use of !important,app.css: line 5, col 1, Don't use adjoining classes.,app.css: line 5, col 1, Rule is empty.
+app.css: line 2, col 3, Use of !important,
+app.css: line 5, col 1, Don't use adjoining classes.,
+app.css: line 5, col 1, Rule is empty.
 3 errors
 
 ===== 3 CSSLint Errors
