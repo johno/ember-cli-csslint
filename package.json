@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-csslint",
   "description": "Lint your CSS as part of your build process (runs after CSS preprocessors).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "broccoli": "^0.13.3",
-    "broccoli-csslint": "^0.1.2",
+    "broccoli-csslint": "^1.0.0",
     "broccoli-file-remover": "^0.3.1"
   }
 }
