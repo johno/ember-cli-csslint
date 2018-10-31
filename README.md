@@ -4,10 +4,11 @@
 process. This addon lints the CSS _after_ the preprocessors (using the postprocess
 hook) so you can lint the resulting CSS after the Sass/Less preprocessors.
 
-## Installation
+Installation
+------------------------------------------------------------------------------
 
 ```
-ember install:addon ember-cli-csslint
+ember install ember-cli-csslint
 ```
 
 ## Usage
@@ -51,29 +52,14 @@ To customize your linting, create a `.csslintrc` in your project root. Here's an
 
 For more information on the available rules see the [csslint wiki](https://github.com/CSSLint/csslint/wiki/Rules-by-ID).
 
-## Development
+## Contributing
 
-### Installation
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+License
+------------------------------------------------------------------------------
 
-### Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## TODO:
 
@@ -84,7 +70,7 @@ For more information on using ember-cli, visit [http://www.ember-cli.com/](http:
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contributing
 
